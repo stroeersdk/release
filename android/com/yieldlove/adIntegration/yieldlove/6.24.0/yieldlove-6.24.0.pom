@@ -7,6 +7,11 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
+      <groupId>com.yieldlove</groupId>
+      <artifactId>androidPromise</artifactId>
+      <version>0.6.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.prebid</groupId>
       <artifactId>prebid-mobile-sdk</artifactId>
       <version>2.2.3</version>
@@ -60,11 +65,6 @@
       <groupId>com.jakewharton.timber</groupId>
       <artifactId>timber</artifactId>
       <version>5.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>com.yieldlove</groupId>
-      <artifactId>androidPromise</artifactId>
-      <version>0.6.0</version>
     </dependency>
   </dependencies>
 </project>
