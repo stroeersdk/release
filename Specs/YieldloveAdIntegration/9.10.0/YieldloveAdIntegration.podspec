@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.homepage           = 'https://yieldlove.com/'
     spec.documentation_url  = 'https://stroeerdigitalgroup.atlassian.net/wiki/x/FgGyc'
     spec.author             = { 'Pascal Salesch' => 'pascal.salesch@yieldlove.com' }
-    spec.source             = { :http => 'https://slabs-yieldlove-ad-integration.s3.eu-central-1.amazonaws.com/ios/yieldlove-ad-integration-9.9.0.tgz' }
+    spec.source             = { :http => 'https://github.com/stroeersdk/release/raw/refs/heads/main/Specs/YieldloveAdIntegration/9.10.0/yieldlove-ad-integration-9.10.0.tgz' }
     
     spec.requires_arc       = true
     spec.platforms          = { :ios => '12.0' }
