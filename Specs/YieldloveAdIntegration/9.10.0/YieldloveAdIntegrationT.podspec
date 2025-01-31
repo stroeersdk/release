@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
     # Core Subspec
     spec.subspec 'Core' do |core|
         core.source_files       = 'YieldloveAdIntegration/Classes/**/*.swift'
-        core.resource_bundles   = { 'YieldloveAdIntegration' => ['YieldloveAdIntegration/Resources/*.xcprivacy'] }
+        core.resource_bundles   = {' => ['YieldloveAdIntegration/Resources/*.xcprivacy'] }
         core.dependency 'PrebidMobile', '2.2.3'
         core.dependency 'Google-Mobile-Ads-SDK'
         core.dependency 'YieldloveExternalConfiguration', '0.23.0'
