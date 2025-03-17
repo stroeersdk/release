@@ -3,11 +3,12 @@
   <groupId>com.yieldlove.adIntegration</groupId>
   <artifactId>confiant</artifactId>
   <versioning>
-    <latest>1.0.0</latest>
-    <release>1.0.0</release>
+    <latest>7.0.0</latest>
+    <release>7.0.0</release>
     <versions>
       <version>1.0.0</version>
+      <version>7.0.0</version>
     </versions>
-    <lastUpdated>20250115024824</lastUpdated>
+    <lastUpdated>20250317032600</lastUpdated>
   </versioning>
 </metadata>

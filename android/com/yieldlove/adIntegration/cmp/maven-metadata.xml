@@ -3,11 +3,12 @@
   <groupId>com.yieldlove.adIntegration</groupId>
   <artifactId>cmp</artifactId>
   <versioning>
-    <latest>4.9.0</latest>
-    <release>4.9.0</release>
+    <latest>7.0.0</latest>
+    <release>7.0.0</release>
     <versions>
       <version>4.9.0</version>
+      <version>7.0.0</version>
     </versions>
-    <lastUpdated>20250115023641</lastUpdated>
+    <lastUpdated>20250317032540</lastUpdated>
   </versioning>
 </metadata>
