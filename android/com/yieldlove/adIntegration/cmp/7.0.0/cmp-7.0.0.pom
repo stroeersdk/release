@@ -7,19 +7,19 @@
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>com.yieldlove.adIntegration</groupId>
-      <artifactId>yieldlove</artifactId>
-      <version>7.0.0</version>
-    </dependency>
-    <dependency>
       <groupId>com.sourcepoint.cmplibrary</groupId>
       <artifactId>cmplibrary</artifactId>
-      <version>7.11.0</version>
+      <version>7.11.1</version>
     </dependency>
     <dependency>
       <groupId>androidx.annotation</groupId>
       <artifactId>annotation</artifactId>
       <version>1.9.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.yieldlove.adIntegration</groupId>
+      <artifactId>yieldlove</artifactId>
+      <version>7.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.jakewharton.timber</groupId>

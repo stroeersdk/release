@@ -4,7 +4,6 @@
   <groupId>com.yieldlove.adIntegration</groupId>
   <artifactId>yieldlove</artifactId>
   <version>7.0.0</version>
-  <classifier>sources</classifier>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
