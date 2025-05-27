@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = 'YieldloveAdIntegration'
-  spec.version            = '10.0.0'
+  spec.version            = '10.1.0'
   spec.summary            = 'A lightweight SDK that helps publishers maximize ad revenue across mobile websites and apps.'
   spec.license            = { :type => 'Commercial', :file => 'LICENSE' }
   spec.description        = 'We provide publishers with a platform that maximizes ad monetization, ensuring every impression is optimized for top-tier revenue performance.'
@@ -31,12 +31,12 @@ Pod::Spec.new do |spec|
     consent.dependency     'ConsentViewController', '~>7.7.7'
   end
 
-#    spec.subspec 'Confiant' do |confiant|
-#      confiant.preserve_paths = 'Plugins/Monitoring/ConfiantPlugin/**/*'
-#      confiant.source_files   = 'Plugins/Monitoring/ConfiantPlugin/ConfiantPlugin/Classes/**/*.swift'
-#      confiant.dependency     'ConfiantSDK'
-#      confiant.dependency     'YieldloveAdIntegration/Core'
-#    end
+    spec.subspec 'Confiant' do |confiant|
+      confiant.preserve_paths = 'Plugins/Monitoring/ConfiantPlugin/**/*'
+      confiant.source_files   = 'Plugins/Monitoring/ConfiantPlugin/ConfiantPlugin/Classes/**/*.swift'
+      confiant.dependency     'ConfiantSDK'
+      confiant.dependency     'YieldloveAdIntegration/Core'
+    end
 
   spec.subspec 'Gravite' do |gravite|
     gravite.preserve_paths = 'Plugins/Backfill/GravitePlugin/**/*'
