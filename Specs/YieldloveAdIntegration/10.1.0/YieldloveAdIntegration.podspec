@@ -24,12 +24,12 @@ Pod::Spec.new do |spec|
     core.dependency 'Google-Mobile-Ads-SDK', '~>11'
   end
 
-  spec.subspec 'Consent' do |consent|
-    consent.preserve_paths = 'Plugins/YieldloveConsent/YieldloveConsent/**/*'
-    consent.source_files   = 'Plugins/YieldloveConsent/YieldloveConsent/Classes/**/*.swift'
-    consent.dependency     'YieldloveAdIntegration/Core'
-    consent.dependency     'ConsentViewController', '~>7.7.7'
-  end
+#  spec.subspec 'Consent' do |consent|
+#    consent.preserve_paths = 'Plugins/YieldloveConsent/YieldloveConsent/**/*'
+#    consent.source_files   = 'Plugins/YieldloveConsent/YieldloveConsent/Classes/**/*.swift'
+#    consent.dependency     'YieldloveAdIntegration/Core'
+#    consent.dependency     'ConsentViewController', '~>7.7.7'
+#  end
 
     spec.subspec 'Confiant' do |confiant|
       confiant.preserve_paths = 'Plugins/Monitoring/ConfiantPlugin/**/*'

@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name               = 'YieldloveAdIntegration'
-  spec.version            = '10.0.0'
+  spec.version            = '10.1.0'
   spec.summary            = 'A lightweight SDK that helps publishers maximize ad revenue across mobile websites and apps.'
   spec.license            = { :type => 'Commercial', :file => 'LICENSE' }
   spec.description        = 'We provide publishers with a platform that maximizes ad monetization, ensuring every impression is optimized for top-tier revenue performance.'
   spec.homepage           = 'https://yieldlove.com/'
   spec.documentation_url  = 'https://stroeerdigitalgroup.atlassian.net/wiki/x/FgGyc'
   spec.author             = { 'Stroeer Labs' => 'stroeerlabs@adscale.co.nz' }
-  spec.source             = { :http => "https://slabs-yieldlove-ad-integration.s3.eu-central-1.amazonaws.com/ios/yieldlove-ad-integrationConfiant-10.0.0.tgz" }
+  spec.source             = { :http => "https://github.com/stroeersdk/release/raw/refs/heads/main/Specs/YieldloveAdIntegration/10.1.0/yieldlove-ad-integrationConfiant-10.1.0.tgz" }
   spec.requires_arc       = true
   spec.platforms          = { :ios => '15.0' }
   spec.static_framework   = true
