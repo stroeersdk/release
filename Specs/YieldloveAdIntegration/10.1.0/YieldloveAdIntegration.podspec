@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.homepage           = 'https://yieldlove.com/'
   spec.documentation_url  = 'https://stroeerdigitalgroup.atlassian.net/wiki/x/FgGyc'
   spec.author             = { 'Stroeer Labs' => 'stroeerlabs@adscale.co.nz' }
-  spec.source             = { :http => "https://github.com/stroeersdk/release/raw/refs/heads/main/Specs/YieldloveAdIntegration/10.1.0/yieldlove-ad-integration-10.1.0.tgz" }
+  spec.source             = { :http => "https://github.com/stroeersdk/release/raw/refs/heads/main/Specs/YieldloveAdIntegration/10.1.0/yieldlove-ad-integrationConfiant-10.1.0.tgz" }
   spec.requires_arc       = true
   spec.platforms          = { :ios => '15.0' }
   spec.static_framework   = true
@@ -24,19 +24,19 @@ Pod::Spec.new do |spec|
     core.dependency 'Google-Mobile-Ads-SDK', '~>11'
   end
 
-  spec.subspec 'Consent' do |consent|
-    consent.preserve_paths = 'Plugins/YieldloveConsent/YieldloveConsent/**/*'
-    consent.source_files   = 'Plugins/YieldloveConsent/YieldloveConsent/Classes/**/*.swift'
-    consent.dependency     'YieldloveAdIntegration/Core'
-    consent.dependency     'ConsentViewController', '~>7.7.7'
-  end
+    spec.subspec 'Consent' do |consent|
+        consent.preserve_paths = 'Plugins/YieldloveConsent/YieldloveConsent/**/*'
+        consent.source_files   = 'Plugins/YieldloveConsent/YieldloveConsent/Classes/**/*.swift'
+        consent.dependency     'YieldloveAdIntegration/Core'
+        consent.dependency     'ConsentViewController', '~>7.7.7'
+    end
 
-#    spec.subspec 'Confiant' do |confiant|
-#      confiant.preserve_paths = 'Plugins/Monitoring/ConfiantPlugin/**/*'
-#      confiant.source_files   = 'Plugins/Monitoring/ConfiantPlugin/ConfiantPlugin/Classes/**/*.swift'
-#      confiant.dependency     'ConfiantSDK'
-#      confiant.dependency     'YieldloveAdIntegration/Core'
-#    end
+    spec.subspec 'Confiant' do |confiant|
+        confiant.preserve_paths = 'Plugins/Monitoring/ConfiantPlugin/**/*'
+        confiant.source_files   = 'Plugins/Monitoring/ConfiantPlugin/ConfiantPlugin/Classes/**/*.swift'
+        confiant.dependency     'ConfiantSDK'
+        confiant.dependency     'YieldloveAdIntegration/Core'
+    end
 
   spec.subspec 'Gravite' do |gravite|
     gravite.preserve_paths = 'Plugins/Backfill/GravitePlugin/**/*'
