@@ -35,11 +35,11 @@
         {
           "name": "yieldlove-7.2.0.aar",
           "url": "yieldlove-7.2.0.aar",
-          "size": 439872,
-          "sha512": "0dc7a3bc7fcebd4175e731eb5072cafc215e143375514a5494cef0fb3e14a7cc05bbaf1805db542ce10f1dc3d59308546f21ab0265bdbfb2bb670d94c6382157",
-          "sha256": "e324b665dab9571f541db6cb0c4ab7adc95616e27c1f25bddc07565cd127882f",
-          "sha1": "c020cc5e6d28170becfc35fe7d1d27031a5218fa",
-          "md5": "1ed6869836363944093937aaafc97e62"
+          "size": 439681,
+          "sha512": "10d09d8fad9b30a27f205c44fdfefa8625e62c54632d7134320d5197123f08bacb48f94949fa1754af3b00d04da5cac3a2018b645fd79a1753352d7acfc1fbdb",
+          "sha256": "8f371beffea7a211d7eab970dca033bc2e4191cf895c09cfe375e76295170fe6",
+          "sha1": "f2014d415efbe09dc5b9b61cfbf4fb7c417232c8",
+          "md5": "16ba68d47ac1201da9d2d242ff1e32ca"
         }
       ]
     },
@@ -148,11 +148,11 @@
         {
           "name": "yieldlove-7.2.0.aar",
           "url": "yieldlove-7.2.0.aar",
-          "size": 439872,
-          "sha512": "0dc7a3bc7fcebd4175e731eb5072cafc215e143375514a5494cef0fb3e14a7cc05bbaf1805db542ce10f1dc3d59308546f21ab0265bdbfb2bb670d94c6382157",
-          "sha256": "e324b665dab9571f541db6cb0c4ab7adc95616e27c1f25bddc07565cd127882f",
-          "sha1": "c020cc5e6d28170becfc35fe7d1d27031a5218fa",
-          "md5": "1ed6869836363944093937aaafc97e62"
+          "size": 439681,
+          "sha512": "10d09d8fad9b30a27f205c44fdfefa8625e62c54632d7134320d5197123f08bacb48f94949fa1754af3b00d04da5cac3a2018b645fd79a1753352d7acfc1fbdb",
+          "sha256": "8f371beffea7a211d7eab970dca033bc2e4191cf895c09cfe375e76295170fe6",
+          "sha1": "f2014d415efbe09dc5b9b61cfbf4fb7c417232c8",
+          "md5": "16ba68d47ac1201da9d2d242ff1e32ca"
         }
       ]
     },
@@ -168,11 +168,11 @@
         {
           "name": "yieldlove-7.2.0-sources.jar",
           "url": "yieldlove-7.2.0-sources.jar",
-          "size": 200896,
-          "sha512": "9814c225e7fb01bdd97955959914b82c820794028c4d757917ef4931a5a37c59246e8586a8b19d07e07a4521d7b5b7d590ed15350e46631e6ed7980be5030091",
-          "sha256": "554cb742fa6175445e209ebe991e892217185d522e09eff4c0a974bac53e64cc",
-          "sha1": "79221db3d382d1d658458cc062af05f70e13c270",
-          "md5": "a39cd8f5ed42916e0c35c46bf030ec69"
+          "size": 201175,
+          "sha512": "1661394628401a11af46960de6b8bce40f14e3ed7c19416ea8f715f97c94c70e7b8192e05690d717b8c5f99ef47681f22e750b108d434e0e4164c490f712dcad",
+          "sha256": "b551037cd5dade368034c1744d0d1bb42902cecdc0f83389213acc7fd83ffe97",
+          "sha1": "daf61a4d334ab69ad2d272ed09aa888362526683",
+          "md5": "1d150b0d5741218895af83b42f259988"
         }
       ]
     }
