@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "confiant",
+    "version": "7.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "confiant-7.2.0.aar",
+          "url": "confiant-7.2.0.aar",
+          "size": 5541,
+          "sha512": "fa0a9b56d6a182dc0ac9ee982e89063ac550ab1530b7fede207c73520703268cf30890a4fefbf70635764b8e5db0552f6899abb4ff3d239ce8299be4d7a4c692",
+          "sha256": "37ed32a3e9f43789da2ed13f873c8c53653b927d8de2aacc41637d23a3e3bc2b",
+          "sha1": "f93def2db7f4780047671da1e3e608bbd4768964",
+          "md5": "b2cdf6f4425105fb0571de2bfe9730c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.yieldlove.adIntegration",
+          "module": "yieldlove",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.confiant.android",
+          "module": "sdk",
+          "version": {
+            "requires": "6.1.1-2"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "confiant-7.2.0.aar",
+          "url": "confiant-7.2.0.aar",
+          "size": 5541,
+          "sha512": "fa0a9b56d6a182dc0ac9ee982e89063ac550ab1530b7fede207c73520703268cf30890a4fefbf70635764b8e5db0552f6899abb4ff3d239ce8299be4d7a4c692",
+          "sha256": "37ed32a3e9f43789da2ed13f873c8c53653b927d8de2aacc41637d23a3e3bc2b",
+          "sha1": "f93def2db7f4780047671da1e3e608bbd4768964",
+          "md5": "b2cdf6f4425105fb0571de2bfe9730c2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "confiant-7.2.0-sources.jar",
+          "url": "confiant-7.2.0-sources.jar",
+          "size": 3387,
+          "sha512": "cc3cf69c18f666ef0fca7ca09515eac47a6f71c704bedc3445d55396ec6d0acca19377477ca70d7f1ef11ddb46d2962776b3fcb35ca472d08c71d74202161ac5",
+          "sha256": "c6b8e528fe1b6efa286784e2bfcfcc3482efec311961f70d9eb02f9fdd452d1b",
+          "sha1": "1e3adc08ddc75957aa8681c94a8346fd83ebaa68",
+          "md5": "bba1db79f5bf52b84fa1aa46190c0d73"
+        }
+      ]
+    }
+  ]
+}

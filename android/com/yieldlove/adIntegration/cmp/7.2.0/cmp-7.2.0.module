@@ -1,0 +1,115 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "cmp",
+    "version": "7.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cmp-7.2.0.aar",
+          "url": "cmp-7.2.0.aar",
+          "size": 8935,
+          "sha512": "e5318b566d75a0a2fb25874e1e8ec48319fdee98ded18dd9a233a9177a44dff83e71ddc4adee71cc07acf0b0f85bf4138bc362e84d499ddc3ecb1212a4e4473d",
+          "sha256": "f9922379571aaa5ff2855bb85dac0d26301a763a479696b9ac7cf8e8ba6f6ee9",
+          "sha1": "3b1bc1070fbce2a054cc55c4fe748323a7131ca3",
+          "md5": "ab0dc5625c9516cc96fe72fa99a1235f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.yieldlove.adIntegration",
+          "module": "yieldlove",
+          "version": {
+            "requires": "7.2.0"
+          }
+        },
+        {
+          "group": "com.sourcepoint.cmplibrary",
+          "module": "cmplibrary",
+          "version": {
+            "requires": "7.11.2"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmp-7.2.0.aar",
+          "url": "cmp-7.2.0.aar",
+          "size": 8935,
+          "sha512": "e5318b566d75a0a2fb25874e1e8ec48319fdee98ded18dd9a233a9177a44dff83e71ddc4adee71cc07acf0b0f85bf4138bc362e84d499ddc3ecb1212a4e4473d",
+          "sha256": "f9922379571aaa5ff2855bb85dac0d26301a763a479696b9ac7cf8e8ba6f6ee9",
+          "sha1": "3b1bc1070fbce2a054cc55c4fe748323a7131ca3",
+          "md5": "ab0dc5625c9516cc96fe72fa99a1235f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cmp-7.2.0-sources.jar",
+          "url": "cmp-7.2.0-sources.jar",
+          "size": 4926,
+          "sha512": "bfea6d073398cae44aa3e32e82d4150c9b919fb808a465201138703da1a6066b35354fc70ef45a2ab6f5dd0edf429ee76e4edbb2c85e4f11232c0e20be5aa37c",
+          "sha256": "508d4bd284fc0f5aa7f57c3d2ac932172142f75a523eb8adac8f007a4cc9a8d8",
+          "sha1": "a200c2809adb4d615694262c3d2e640ee3c668b3",
+          "md5": "89dfcff4759c0043f81a3fec4046ef89"
+        }
+      ]
+    }
+  ]
+}
