@@ -26,11 +26,11 @@
         {
           "name": "cmp-7.2.0.aar",
           "url": "cmp-7.2.0.aar",
-          "size": 8935,
-          "sha512": "e5318b566d75a0a2fb25874e1e8ec48319fdee98ded18dd9a233a9177a44dff83e71ddc4adee71cc07acf0b0f85bf4138bc362e84d499ddc3ecb1212a4e4473d",
-          "sha256": "f9922379571aaa5ff2855bb85dac0d26301a763a479696b9ac7cf8e8ba6f6ee9",
-          "sha1": "3b1bc1070fbce2a054cc55c4fe748323a7131ca3",
-          "md5": "ab0dc5625c9516cc96fe72fa99a1235f"
+          "size": 8946,
+          "sha512": "5a9fa8024b019dcc2fddf1c30da79d2c2416c8a06a202b61c377cd74eef3c66b67b8c3329ed6e659f8f7e8dbc216a96566a26a51b8e0eb520ec37114d189bb55",
+          "sha256": "f83085030e0867ed9d41fea2a189737667d9f173d507be5dcb19e6c1161301bf",
+          "sha1": "41fac0e700b6fdd777cace9682675942b651bcdc",
+          "md5": "3ee373f8988e66b42db35d1c78a72758"
         }
       ]
     },
@@ -83,11 +83,11 @@
         {
           "name": "cmp-7.2.0.aar",
           "url": "cmp-7.2.0.aar",
-          "size": 8935,
-          "sha512": "e5318b566d75a0a2fb25874e1e8ec48319fdee98ded18dd9a233a9177a44dff83e71ddc4adee71cc07acf0b0f85bf4138bc362e84d499ddc3ecb1212a4e4473d",
-          "sha256": "f9922379571aaa5ff2855bb85dac0d26301a763a479696b9ac7cf8e8ba6f6ee9",
-          "sha1": "3b1bc1070fbce2a054cc55c4fe748323a7131ca3",
-          "md5": "ab0dc5625c9516cc96fe72fa99a1235f"
+          "size": 8946,
+          "sha512": "5a9fa8024b019dcc2fddf1c30da79d2c2416c8a06a202b61c377cd74eef3c66b67b8c3329ed6e659f8f7e8dbc216a96566a26a51b8e0eb520ec37114d189bb55",
+          "sha256": "f83085030e0867ed9d41fea2a189737667d9f173d507be5dcb19e6c1161301bf",
+          "sha1": "41fac0e700b6fdd777cace9682675942b651bcdc",
+          "md5": "3ee373f8988e66b42db35d1c78a72758"
         }
       ]
     },
@@ -103,11 +103,11 @@
         {
           "name": "cmp-7.2.0-sources.jar",
           "url": "cmp-7.2.0-sources.jar",
-          "size": 4926,
-          "sha512": "bfea6d073398cae44aa3e32e82d4150c9b919fb808a465201138703da1a6066b35354fc70ef45a2ab6f5dd0edf429ee76e4edbb2c85e4f11232c0e20be5aa37c",
-          "sha256": "508d4bd284fc0f5aa7f57c3d2ac932172142f75a523eb8adac8f007a4cc9a8d8",
-          "sha1": "a200c2809adb4d615694262c3d2e640ee3c668b3",
-          "md5": "89dfcff4759c0043f81a3fec4046ef89"
+          "size": 4928,
+          "sha512": "739664e2650bb1594ede79baacd962372bea8419c0c1d4898f8426faee7369b6d08f1e18d059665addeaa51c5c4c55415652f14e1a5f86fa6e6634ee26442d9c",
+          "sha256": "c9edd4afc1af721cfe278dcebf335073395f7a52fae09d02955d0ebc1512f95e",
+          "sha1": "1ed8a28291b8ed3535165a712e5a827bee84645c",
+          "md5": "03c4a892fd05f41f07c735d4ae3e2955"
         }
       ]
     }
