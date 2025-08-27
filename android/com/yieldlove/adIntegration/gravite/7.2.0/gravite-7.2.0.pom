@@ -121,6 +121,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <android.versionCode>39</android.versionCode>
+    <android.versionCode>0</android.versionCode>
   </properties>
 </project>
