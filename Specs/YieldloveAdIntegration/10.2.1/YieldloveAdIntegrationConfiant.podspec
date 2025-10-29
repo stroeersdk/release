@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Core' do |core|
     core.source_files       = 'YieldloveAdIntegration/Classes/**/*.{swift,h,m,mm}'
     core.resource_bundles   = { 'YieldloveAdIntegration' => ['YieldloveAdIntegration/Resources/*.xcprivacy'] }
-    core.dependency 'PrebidMobile', '3.1.0'
+    core.dependency 'PrebidMobile', '2.5.0'
     core.dependency 'PromiseKit', '~>8'
     core.dependency 'Google-Mobile-Ads-SDK', '~>12'
   end
@@ -41,7 +41,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Gravite' do |gravite|
     gravite.preserve_paths = 'Plugins/Backfill/GravitePlugin/**/*'
     gravite.source_files   = 'Plugins/Backfill/GravitePlugin/GravitePlugin/Classes/**/*.swift'
-    gravite.dependency     'AATKit/Core', '3.12.7'
+    gravite.dependency     'AATKit/Core', '3.12.3'
     gravite.dependency     'YieldloveAdIntegration/Core'
   end
 end
