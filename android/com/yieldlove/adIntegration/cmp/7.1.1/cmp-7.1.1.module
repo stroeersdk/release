@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "cmp",
+    "version": "7.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cmp-7.1.1.aar",
+          "url": "cmp-7.1.1.aar",
+          "size": 8454,
+          "sha512": "1c5efa6ef5bd67baf5083aa3aecaaf28b473b069719dbe5d51c7dce87ce75a7bad61634382d0c525b9387682814f243700c2031a9646365c11f24d79efb439df",
+          "sha256": "b2ae9af1418f4df8576653b17a95f75688aa583dccf33dd1d5d3f7564822acdb",
+          "sha1": "2df69c5888ad7610041f4a75cc056e88ef30ef84",
+          "md5": "57ed3faf3bfbf6de7f814fc9508d8b20"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.sourcepoint.cmplibrary",
+          "module": "cmplibrary",
+          "version": {
+            "requires": "7.11.2"
+          }
+        },
+        {
+          "group": "com.yieldlove.adIntegration",
+          "module": "yieldlove",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmp-7.1.1.aar",
+          "url": "cmp-7.1.1.aar",
+          "size": 8454,
+          "sha512": "1c5efa6ef5bd67baf5083aa3aecaaf28b473b069719dbe5d51c7dce87ce75a7bad61634382d0c525b9387682814f243700c2031a9646365c11f24d79efb439df",
+          "sha256": "b2ae9af1418f4df8576653b17a95f75688aa583dccf33dd1d5d3f7564822acdb",
+          "sha1": "2df69c5888ad7610041f4a75cc056e88ef30ef84",
+          "md5": "57ed3faf3bfbf6de7f814fc9508d8b20"
+        }
+      ]
+    }
+  ]
+}

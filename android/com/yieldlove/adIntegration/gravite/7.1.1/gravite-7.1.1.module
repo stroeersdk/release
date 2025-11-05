@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "gravite",
+    "version": "7.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gravite-7.1.1.aar",
+          "url": "gravite-7.1.1.aar",
+          "size": 14548,
+          "sha512": "f237b74f78c37c07643534570140907b085c22fb133535f681535836de1d5a969fe7c79618db09473ac966f359f85734182da476ca995fe5dc401efa37c4d913",
+          "sha256": "9d7d0a9adabeb7ba95d467fdc4af4ae02e129c8601b02cca216069541499dc55",
+          "sha1": "f4efa2f76c456529b1fb996574721710e380d5d0",
+          "md5": "ab0973ce0a137b2c472b7dbee8f019d6"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.intentsoftware.addapptr",
+          "module": "AATKit",
+          "version": {
+            "requires": "3.12.5"
+          },
+          "excludes": [
+            {
+              "group": "com.applovin",
+              "module": "applovin-sdk"
+            },
+            {
+              "group": "com.mbridge.msdk.oversea",
+              "module": "*"
+            },
+            {
+              "group": "com.rtb.sdk",
+              "module": "RTB-SDK"
+            },
+            {
+              "group": "co.ogury",
+              "module": "ogury-sdk"
+            },
+            {
+              "group": "com.feedad.android",
+              "module": "feedad-sdk"
+            },
+            {
+              "group": "com.smaato.android.sdk",
+              "module": "*"
+            },
+            {
+              "group": "com.criteo.publisher",
+              "module": "criteo-publisher-sdk"
+            },
+            {
+              "group": "org.prebid",
+              "module": "prebid-mobile-sdk"
+            },
+            {
+              "group": "com.vungle",
+              "module": "vungle-ads"
+            },
+            {
+              "group": "net.pubnative",
+              "module": "hybid.sdk"
+            },
+            {
+              "group": "com.inmobi.monetization",
+              "module": "inmobi-ads-kotlin"
+            },
+            {
+              "group": "com.appnexus.opensdk",
+              "module": "appnexus-sdk"
+            },
+            {
+              "group": "com.unity3d.ads",
+              "module": "unity-ads"
+            },
+            {
+              "group": "com.google.ads.mediation",
+              "module": "facebook"
+            },
+            {
+              "group": "com.tappx.sdk.android",
+              "module": "tappx-sdk"
+            },
+            {
+              "group": "com.intentsoftware.addapptr.subsdk",
+              "module": "AdColony"
+            },
+            {
+              "group": "com.smartadserver.android",
+              "module": "smart-display-sdk"
+            },
+            {
+              "group": "com.ironsource.sdk",
+              "module": "mediationsdk"
+            },
+            {
+              "group": "com.yoc.visx.sdk",
+              "module": "visx-sdk"
+            }
+          ]
+        },
+        {
+          "group": "com.yieldlove.adIntegration",
+          "module": "yieldlove",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gravite-7.1.1.aar",
+          "url": "gravite-7.1.1.aar",
+          "size": 14548,
+          "sha512": "f237b74f78c37c07643534570140907b085c22fb133535f681535836de1d5a969fe7c79618db09473ac966f359f85734182da476ca995fe5dc401efa37c4d913",
+          "sha256": "9d7d0a9adabeb7ba95d467fdc4af4ae02e129c8601b02cca216069541499dc55",
+          "sha1": "f4efa2f76c456529b1fb996574721710e380d5d0",
+          "md5": "ab0973ce0a137b2c472b7dbee8f019d6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "confiant",
+    "version": "7.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "confiant-7.1.1.aar",
+          "url": "confiant-7.1.1.aar",
+          "size": 4998,
+          "sha512": "0d044451735588bd129580e7774afadd068afff0c3c106b4ca92e0332212c3a4ba124d8701458a07c64ceafd238737fee5c67dd15abbca7890ecb0d964d74e8e",
+          "sha256": "39398753a329df30d50a716d101528d2ea2ce2b74193396be0c98d898953579d",
+          "sha1": "3a44355f6e4ab7842bcbc8ab680d2eced2a59981",
+          "md5": "618d9253f4b620d113ec3e96d40c6325"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.yieldlove.adIntegration",
+          "module": "yieldlove",
+          "version": {
+            "requires": "7.1.1"
+          }
+        },
+        {
+          "group": "com.confiant.android",
+          "module": "sdk",
+          "version": {
+            "requires": "6.1.1-2"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "confiant-7.1.1.aar",
+          "url": "confiant-7.1.1.aar",
+          "size": 4998,
+          "sha512": "0d044451735588bd129580e7774afadd068afff0c3c106b4ca92e0332212c3a4ba124d8701458a07c64ceafd238737fee5c67dd15abbca7890ecb0d964d74e8e",
+          "sha256": "39398753a329df30d50a716d101528d2ea2ce2b74193396be0c98d898953579d",
+          "sha1": "3a44355f6e4ab7842bcbc8ab680d2eced2a59981",
+          "md5": "618d9253f4b620d113ec3e96d40c6325"
+        }
+      ]
+    }
+  ]
+}
