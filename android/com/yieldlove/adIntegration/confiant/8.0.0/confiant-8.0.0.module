@@ -36,10 +36,10 @@
           "name": "confiant-8.0.0.aar",
           "url": "confiant-8.0.0.aar",
           "size": 5516,
-          "sha512": "fdfb0c3a3de80ca346c9c00fbf3394769db36b23fbc56ee28ac006afc9d99ec10c31105661420d2d305a2f8a80aa6d6494993639c9346b5b3549d6886e8ef0c2",
-          "sha256": "9adddfd8d3fae0dae33edb4c8d5e3c3a5581a9945b987c4f7384336d271e0a56",
-          "sha1": "5732cfee85b270b2ca2acade16c64d4a4bf0bddb",
-          "md5": "23e77fd5459a1d3dd8ef8f8832ed076f"
+          "sha512": "994f7ef185f159a49d7178bb506673865786a933913b830079fa8d17a12c72ecc70594cb9df838b40fc34fa28ddd668a4f31e4cd031ee18e4a29ed7aca04350b",
+          "sha256": "883dcbbe3cdc68e68eb9a4c07ec104ae1edfc2940857b28cb2cd5d5d856c7c59",
+          "sha1": "cf91a46cf4b105945f00bfddac6641aba54ed48c",
+          "md5": "846081d7b654ac1408e06eb79e0b33a1"
         }
       ]
     },
@@ -107,10 +107,10 @@
           "name": "confiant-8.0.0.aar",
           "url": "confiant-8.0.0.aar",
           "size": 5516,
-          "sha512": "fdfb0c3a3de80ca346c9c00fbf3394769db36b23fbc56ee28ac006afc9d99ec10c31105661420d2d305a2f8a80aa6d6494993639c9346b5b3549d6886e8ef0c2",
-          "sha256": "9adddfd8d3fae0dae33edb4c8d5e3c3a5581a9945b987c4f7384336d271e0a56",
-          "sha1": "5732cfee85b270b2ca2acade16c64d4a4bf0bddb",
-          "md5": "23e77fd5459a1d3dd8ef8f8832ed076f"
+          "sha512": "994f7ef185f159a49d7178bb506673865786a933913b830079fa8d17a12c72ecc70594cb9df838b40fc34fa28ddd668a4f31e4cd031ee18e4a29ed7aca04350b",
+          "sha256": "883dcbbe3cdc68e68eb9a4c07ec104ae1edfc2940857b28cb2cd5d5d856c7c59",
+          "sha1": "cf91a46cf4b105945f00bfddac6641aba54ed48c",
+          "md5": "846081d7b654ac1408e06eb79e0b33a1"
         }
       ]
     },
@@ -126,11 +126,11 @@
         {
           "name": "confiant-8.0.0-sources.jar",
           "url": "confiant-8.0.0-sources.jar",
-          "size": 3389,
-          "sha512": "bb7952f411a48160a50bdd028f24cd0de2228553a8eafbea6e0f0d63a2bc69afa1654dcdf3fe1cf0567a032ea8a36624d7d7d607d4b263269e4e14c296bed4d4",
-          "sha256": "eb0bae3e940658f4f0620f4d35716c7ea58728564fed8010c26cac95496eb932",
-          "sha1": "c9af8e1ad6a20112f7758150b383bb20504ebe10",
-          "md5": "165454ffdd1dfcb496e1d39688a26c78"
+          "size": 3388,
+          "sha512": "80a0a8c6e9ff3773851d1be9fbd8bdeace9d8105179ea41c66e9fc12b4f19eeb566c196a36dccb5d648f80a861696e99a22252fc6a58add124f7cd7101a5773e",
+          "sha256": "bf7d5ba3169a0ef47ac9a14de60edd1d8af9333822886a8d81dd8c9499ef4e3d",
+          "sha1": "04da1398e665e7cc7eaa0c72aa01290437ae4e51",
+          "md5": "8f8e14079e148c2f866a37bea872da57"
         }
       ]
     }

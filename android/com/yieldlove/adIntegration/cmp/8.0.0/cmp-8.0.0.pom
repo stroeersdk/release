@@ -55,6 +55,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <android.versionCode>64</android.versionCode>
+    <android.versionCode>72</android.versionCode>
   </properties>
 </project>
