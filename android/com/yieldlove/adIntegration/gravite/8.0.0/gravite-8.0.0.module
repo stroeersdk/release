@@ -36,10 +36,10 @@
           "name": "gravite-8.0.0.aar",
           "url": "gravite-8.0.0.aar",
           "size": 15448,
-          "sha512": "78715f0f484248e62610c619663f77b6eb7643111199e356b5a560fbbd412bbeb10df5a27dec8c280e3fab2266ba54d3417c106164a2a78733f4f3ee0a5ed826",
-          "sha256": "068e9361831b58a5b41f197de7454f5bfef86646d4d391b728895f613b20e83e",
-          "sha1": "61b5ac1b9b3dbda0c9c8d641b968f4a969c70d6b",
-          "md5": "35ccf81981031ba255ca12e60e30d43b"
+          "sha512": "7de5491dddc185b5fbea01465aa8f8b31fb96ee9ed2d77b7f1c0cfe77774d0e16e935d7e971c3ad46aed3e37b9dc016ce36bc96725ffa77cc59561b93b409204",
+          "sha256": "fbf2b2ea02b6926e6e30b4fdd9e3c4eb62d227f7dca01c67753cb0878f8a4779",
+          "sha1": "c1fe33090715bc96b6ce131fa91cdf83610bed99",
+          "md5": "64ba640ddbd136e1ec2ac1f5effccf71"
         }
       ]
     },
@@ -185,10 +185,10 @@
           "name": "gravite-8.0.0.aar",
           "url": "gravite-8.0.0.aar",
           "size": 15448,
-          "sha512": "78715f0f484248e62610c619663f77b6eb7643111199e356b5a560fbbd412bbeb10df5a27dec8c280e3fab2266ba54d3417c106164a2a78733f4f3ee0a5ed826",
-          "sha256": "068e9361831b58a5b41f197de7454f5bfef86646d4d391b728895f613b20e83e",
-          "sha1": "61b5ac1b9b3dbda0c9c8d641b968f4a969c70d6b",
-          "md5": "35ccf81981031ba255ca12e60e30d43b"
+          "sha512": "7de5491dddc185b5fbea01465aa8f8b31fb96ee9ed2d77b7f1c0cfe77774d0e16e935d7e971c3ad46aed3e37b9dc016ce36bc96725ffa77cc59561b93b409204",
+          "sha256": "fbf2b2ea02b6926e6e30b4fdd9e3c4eb62d227f7dca01c67753cb0878f8a4779",
+          "sha1": "c1fe33090715bc96b6ce131fa91cdf83610bed99",
+          "md5": "64ba640ddbd136e1ec2ac1f5effccf71"
         }
       ]
     },
@@ -205,10 +205,10 @@
           "name": "gravite-8.0.0-sources.jar",
           "url": "gravite-8.0.0-sources.jar",
           "size": 10528,
-          "sha512": "725b0ec3cf4785ee00cb677e510a9aebff67bce7ff3faff57ef81f179094efec96703ddf4a1accbe1431a53b30ab2a786631ae95f4581f11b9d63d58a46eb6a4",
-          "sha256": "c5b3afae69de232943071d5df2551ab1a53acf17ff8f456eef0a6ba35168f162",
-          "sha1": "7ae034d4fb1ca55d98b8050abbd7a5ae5ec23a0b",
-          "md5": "216b4498ff06b3f643d94c9e7b2b599c"
+          "sha512": "ff58a4cd05638868d615951c8aebeae2f294c526d901598432eff86f8ed391846ae320150c2960a52b12cdacb2c0abd4d79d004eb378bcd058841e0bef0ae343",
+          "sha256": "e45d2d034324d54bcff15126b1458e2d572484ea20dc65406233b3b123da9c76",
+          "sha1": "e855960fe21fca18bcf30b0f4ea099be042e025c",
+          "md5": "db3b52196c1e0a91169c40154d402c86"
         }
       ]
     }
