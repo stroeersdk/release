@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "yieldlove",
+    "version": "8.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yieldlove-8.0.2.aar",
+          "url": "yieldlove-8.0.2.aar",
+          "size": 585318,
+          "sha512": "bb2ab0e140c7682e1888c3c86e60f6a832f4f8d03307ad377ae298ca50d67aa9a24c8f0b08305cfc20b62888d301f98f9e0d0f6b924b1b753a86ddff3c8bf10e",
+          "sha256": "727e23680e4547e8ed088a9abec1350181ff283a7ebb622a6d96f1d8557cbb45",
+          "sha1": "be96a4199e9f4b1150aaf6ba4fc6c4d7253b181c",
+          "md5": "f1b3d042dec775563e3c369861ac6b2e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk-gam-event-handlers",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.iabtcf",
+          "module": "iabtcf-decoder",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "24.6.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yieldlove-8.0.2.aar",
+          "url": "yieldlove-8.0.2.aar",
+          "size": 585318,
+          "sha512": "bb2ab0e140c7682e1888c3c86e60f6a832f4f8d03307ad377ae298ca50d67aa9a24c8f0b08305cfc20b62888d301f98f9e0d0f6b924b1b753a86ddff3c8bf10e",
+          "sha256": "727e23680e4547e8ed088a9abec1350181ff283a7ebb622a6d96f1d8557cbb45",
+          "sha1": "be96a4199e9f4b1150aaf6ba4fc6c4d7253b181c",
+          "md5": "f1b3d042dec775563e3c369861ac6b2e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "yieldlove-8.0.2-sources.jar",
+          "url": "yieldlove-8.0.2-sources.jar",
+          "size": 204062,
+          "sha512": "8bcbfd4181db2dfb2b95227160a1d610b11ba94ad4d97c80765c543b1bd949c02e255fa0df718f11ca7a72d9b6374df4c9c0f4e949dd1e4e8eee36c905672469",
+          "sha256": "94487292799260e61192e4b76f572dcff737103cbcb373c3e169ab2c16c8faec",
+          "sha1": "e1c63f724c05665340a924666f24f8dc599a77e4",
+          "md5": "29eb10107cd03da11ee5e2f80ee3d5b9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "gravite",
+    "version": "8.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gravite-8.0.2.aar",
+          "url": "gravite-8.0.2.aar",
+          "size": 15452,
+          "sha512": "9106b98f0d6d6992d6ab369e945667cd5bed3c5b7b96aa2c5cbc7deacb660d4bf0dd5d673d8b1db208f3c345c459fec72d25ac878661d784dc43bd1e41a68cd5",
+          "sha256": "e35f4c325f73da5cf0e19dbee342bf261980d007163feb9187608a563935d47d",
+          "sha1": "6d5984404d3c4b4014a9cb3920019becebf5e870",
+          "md5": "af6c76e9386bc0433d0158c44e86f5ea"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.intentsoftware.addapptr",
+          "module": "AATKit",
+          "version": {
+            "requires": "3.14.3"
+          },
+          "excludes": [
+            {
+              "group": "com.applovin",
+              "module": "applovin-sdk"
+            },
+            {
+              "group": "com.mbridge.msdk.oversea",
+              "module": "*"
+            },
+            {
+              "group": "com.rtb.sdk",
+              "module": "RTB-SDK"
+            },
+            {
+              "group": "co.ogury",
+              "module": "ogury-sdk"
+            },
+            {
+              "group": "com.feedad.android",
+              "module": "feedad-sdk"
+            },
+            {
+              "group": "com.smaato.android.sdk",
+              "module": "*"
+            },
+            {
+              "group": "com.criteo.publisher",
+              "module": "criteo-publisher-sdk"
+            },
+            {
+              "group": "org.prebid",
+              "module": "prebid-mobile-sdk"
+            },
+            {
+              "group": "com.vungle",
+              "module": "vungle-ads"
+            },
+            {
+              "group": "net.pubnative",
+              "module": "hybid.sdk"
+            },
+            {
+              "group": "com.inmobi.monetization",
+              "module": "inmobi-ads-kotlin"
+            },
+            {
+              "group": "com.appnexus.opensdk",
+              "module": "appnexus-sdk"
+            },
+            {
+              "group": "com.equativ.android",
+              "module": "equativ-display-sdk"
+            },
+            {
+              "group": "com.unity3d.ads",
+              "module": "unity-ads"
+            },
+            {
+              "group": "com.google.ads.mediation",
+              "module": "facebook"
+            },
+            {
+              "group": "com.tappx.sdk.android",
+              "module": "tappx-sdk"
+            },
+            {
+              "group": "com.intentsoftware.addapptr.subsdk",
+              "module": "AdColony"
+            },
+            {
+              "group": "com.ironsource.sdk",
+              "module": "mediationsdk"
+            },
+            {
+              "group": "com.yoc.visx.sdk",
+              "module": "visx-sdk"
+            }
+          ]
+        },
+        {
+          "group": "com.yieldlove.adIntegration",
+          "module": "yieldlove",
+          "version": {
+            "requires": "8.0.2"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gravite-8.0.2.aar",
+          "url": "gravite-8.0.2.aar",
+          "size": 15452,
+          "sha512": "9106b98f0d6d6992d6ab369e945667cd5bed3c5b7b96aa2c5cbc7deacb660d4bf0dd5d673d8b1db208f3c345c459fec72d25ac878661d784dc43bd1e41a68cd5",
+          "sha256": "e35f4c325f73da5cf0e19dbee342bf261980d007163feb9187608a563935d47d",
+          "sha1": "6d5984404d3c4b4014a9cb3920019becebf5e870",
+          "md5": "af6c76e9386bc0433d0158c44e86f5ea"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gravite-8.0.2-sources.jar",
+          "url": "gravite-8.0.2-sources.jar",
+          "size": 10528,
+          "sha512": "eac4fe1cf7ad4421e4e9c66d4b8dd80dfe168a9fdfb3e1317ce5a37834dafa909f30158ad310a918ef132beecc54d67fc0b9389781444cf288431bc94f7ee866",
+          "sha256": "8ebb5e259667fc33dd4a79f35759c6fa412591539c9623b5514619fc554d102c",
+          "sha1": "374a3d8dc9c3b2e21161a446fa8da5b55c88efa6",
+          "md5": "9d8fe6db2174aa3309809f08b2f5fe1b"
+        }
+      ]
+    }
+  ]
+}
