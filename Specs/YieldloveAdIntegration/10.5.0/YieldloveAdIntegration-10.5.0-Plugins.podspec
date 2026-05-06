@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.default_subspecs = 'Core'
 
   spec.subspec 'Core' do |core|
-    core.source_files       = 'YieldloveAdIntegration/Classes/**/*.{swift,h,m,mm,html}'
+    core.source_files       = 'YieldloveAdIntegration/Classes/**/*.{swift,h,m,mm}'
     core.resource_bundles   = { 'YieldloveAdIntegration' => ['YieldloveAdIntegration/Resources/*.xcprivacy', 'YieldloveAdIntegration/Resources/admin/**/*.html'] }
     core.dependency 'PrebidMobile', '3.1.0'
     core.dependency 'PromiseKit', '~>8'
