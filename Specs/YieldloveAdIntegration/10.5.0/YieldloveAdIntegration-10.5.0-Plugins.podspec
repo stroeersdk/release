@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
     core.resource_bundles   = { 'YieldloveAdIntegration' => ['YieldloveAdIntegration/Resources/*.xcprivacy', 'YieldloveAdIntegration/Resources/admin/**/*.html'] }
     core.dependency 'PrebidMobile', '3.1.0'
     core.dependency 'PromiseKit', '~>8'
-    core.dependency 'Google-Mobile-Ads-SDK', '12.11.0'
+    core.dependency 'Google-Mobile-Ads-SDK'
     core.dependency 'GCDWebServer', '~>3.5'
   end
 
