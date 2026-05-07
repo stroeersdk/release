@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
     consent.preserve_paths = 'Plugins/YieldloveConsent/YieldloveConsent/**/*'
     consent.source_files   = 'Plugins/YieldloveConsent/YieldloveConsent/Classes/**/*.swift'
     consent.dependency     'YieldloveAdIntegration/Core'
-    consent.dependency     'ConsentViewController', '~>7.12.9'
+    consent.dependency     'ConsentViewController', '~>7.12'
   end
   
   #Plugin Placeholder
