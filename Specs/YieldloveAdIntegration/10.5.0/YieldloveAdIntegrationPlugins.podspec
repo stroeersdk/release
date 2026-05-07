@@ -42,7 +42,7 @@ Pod::Spec.new do |spec|
    spec.subspec 'Gravite' do |gravite|
      gravite.preserve_paths = 'Plugins/Backfill/GravitePlugin/**/*'
      gravite.source_files   = 'Plugins/Backfill/GravitePlugin/GravitePlugin/Classes/**/*.swift'
-     gravite.dependency     'AATKit/Core',  '3.14.5'
+     gravite.dependency     'AATKit/Core',  '3.12.3'
      gravite.dependency     'YieldloveAdIntegration/Core'
    end
   
