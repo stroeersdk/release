@@ -24,10 +24,17 @@
       },
       "dependencies": [
         {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.1.0"
+            "requires": "2.2.0"
           }
         }
       ],
@@ -35,11 +42,11 @@
         {
           "name": "gravite-8.2.0.aar",
           "url": "gravite-8.2.0.aar",
-          "size": 20469,
-          "sha512": "4ab15432732527bb44e6d4dc976bd3c2bae7d59f9cef04e3614d54ed479038fcf6dbddbe47d318bf11385f7d97fdea4dd5b556566ad934729902fe1ee10741a4",
-          "sha256": "0ec7499f1de141ef3d93bd3a55e0d6104891ac244d0f89ac56d98a1196efcabe",
-          "sha1": "9f5da81325440da6cc52b376fb0b765e6e3f9cc3",
-          "md5": "a4efc5d63f7ceec7810482dc45d553c8"
+          "size": 20467,
+          "sha512": "b318778e6cb557d084a0268deb3f9524cc8b9df42dc299a80b9a063aa19b59f663c8ee8e27fad8f6d4bf93a4041c0cfc8c20c661b8cd635f135752e9afaa03e8",
+          "sha256": "77c3a9871dcf71a93326134ed06f930fe254bd117a7584b037ec455d2bb2903f",
+          "sha1": "90abfe278836ba3c08ead6831d6f96b107239991",
+          "md5": "6c98736b245baea099dc51d5e0b43a68"
         }
       ]
     },
@@ -152,13 +159,6 @@
           }
         },
         {
-          "group": "com.jakewharton.timber",
-          "module": "timber",
-          "version": {
-            "requires": "5.0.1"
-          }
-        },
-        {
           "group": "androidx.annotation",
           "module": "annotation",
           "version": {
@@ -169,14 +169,21 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-reflect",
           "version": {
-            "requires": "2.1.0"
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.1.0"
+            "requires": "2.2.0"
           }
         }
       ],
@@ -184,11 +191,11 @@
         {
           "name": "gravite-8.2.0.aar",
           "url": "gravite-8.2.0.aar",
-          "size": 20469,
-          "sha512": "4ab15432732527bb44e6d4dc976bd3c2bae7d59f9cef04e3614d54ed479038fcf6dbddbe47d318bf11385f7d97fdea4dd5b556566ad934729902fe1ee10741a4",
-          "sha256": "0ec7499f1de141ef3d93bd3a55e0d6104891ac244d0f89ac56d98a1196efcabe",
-          "sha1": "9f5da81325440da6cc52b376fb0b765e6e3f9cc3",
-          "md5": "a4efc5d63f7ceec7810482dc45d553c8"
+          "size": 20467,
+          "sha512": "b318778e6cb557d084a0268deb3f9524cc8b9df42dc299a80b9a063aa19b59f663c8ee8e27fad8f6d4bf93a4041c0cfc8c20c661b8cd635f135752e9afaa03e8",
+          "sha256": "77c3a9871dcf71a93326134ed06f930fe254bd117a7584b037ec455d2bb2903f",
+          "sha1": "90abfe278836ba3c08ead6831d6f96b107239991",
+          "md5": "6c98736b245baea099dc51d5e0b43a68"
         }
       ]
     },
