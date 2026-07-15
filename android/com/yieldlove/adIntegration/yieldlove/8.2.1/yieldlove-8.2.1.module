@@ -31,6 +31,13 @@
           }
         },
         {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
           "group": "org.nanohttpd",
           "module": "nanohttpd",
           "version": {
@@ -56,11 +63,11 @@
         {
           "name": "yieldlove-8.2.1.aar",
           "url": "yieldlove-8.2.1.aar",
-          "size": 587383,
-          "sha512": "2cb2d339073d4ec9d2d7ecae490e029e6358d46145b89497b30e2f0e9064a5ebfec820cece84456835110b29e2dc4af6f3c4be8072f02743f4ec12048c54b59b",
-          "sha256": "75b11c2745d7a77ed3fabef8ad4dd67e8fd6d841c203201429932b7eb6c3b170",
-          "sha1": "53253809939ec39e992110d8add93c19583e3aa2",
-          "md5": "695038bc948d1e8dda9df2836284ebe4"
+          "size": 587342,
+          "sha512": "a64eb06b62fee606f80a8163ee2ad2e2bf60c55cfb6dd1e9d4105d37c2b9df2d29ec01664b61a8ab70945b54c1928e1f3520af8ccb690b8c47b32e2c9a32ce27",
+          "sha256": "8e23ba1cf3f5495184599c331ec557570a62f9b89aef9cf5d7f4e3b9c1401481",
+          "sha1": "e020937900b226b16c908cb839752b36146bdca1",
+          "md5": "2ab8f1fa011f63409baae53b7785a6ec"
         }
       ]
     },
@@ -85,14 +92,6 @@
           "module": "prebid-mobile-sdk-gam-event-handlers",
           "version": {
             "requires": "3.3.0"
-          }
-        },
-        {
-          "group": "com.squareup.okhttp3",
-          "module": "okhttp",
-          "version": {
-            "strictly": "4.12.0",
-            "requires": "4.12.0"
           }
         },
         {
@@ -152,6 +151,13 @@
           }
         },
         {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
           "group": "org.nanohttpd",
           "module": "nanohttpd",
           "version": {
@@ -177,11 +183,11 @@
         {
           "name": "yieldlove-8.2.1.aar",
           "url": "yieldlove-8.2.1.aar",
-          "size": 587383,
-          "sha512": "2cb2d339073d4ec9d2d7ecae490e029e6358d46145b89497b30e2f0e9064a5ebfec820cece84456835110b29e2dc4af6f3c4be8072f02743f4ec12048c54b59b",
-          "sha256": "75b11c2745d7a77ed3fabef8ad4dd67e8fd6d841c203201429932b7eb6c3b170",
-          "sha1": "53253809939ec39e992110d8add93c19583e3aa2",
-          "md5": "695038bc948d1e8dda9df2836284ebe4"
+          "size": 587342,
+          "sha512": "a64eb06b62fee606f80a8163ee2ad2e2bf60c55cfb6dd1e9d4105d37c2b9df2d29ec01664b61a8ab70945b54c1928e1f3520af8ccb690b8c47b32e2c9a32ce27",
+          "sha256": "8e23ba1cf3f5495184599c331ec557570a62f9b89aef9cf5d7f4e3b9c1401481",
+          "sha1": "e020937900b226b16c908cb839752b36146bdca1",
+          "md5": "2ab8f1fa011f63409baae53b7785a6ec"
         }
       ]
     },
@@ -197,11 +203,11 @@
         {
           "name": "yieldlove-8.2.1-sources.jar",
           "url": "yieldlove-8.2.1-sources.jar",
-          "size": 154743,
-          "sha512": "b8dd6e5684fc8d130ba54aeebbb412911419aafd8e569dbaf94af44e5c41770b27b0c9d06e6a0480193ad999729aca787245797091977eb8db8984ef0b4c08e4",
-          "sha256": "16c77d9318c600dbf193d5360ec8cc8358fa82e7bee9c77c1b58d6c669dbbdb7",
-          "sha1": "f4b477882746a1a01c2e3d756fd37ca9a1d9570e",
-          "md5": "857a459a1bfba12261728f808a0f283a"
+          "size": 154732,
+          "sha512": "d1b83f793be6091537e014045447ab0bcb0af5cf19668371ecc7946a6a143d6a36ab2681bfe3cad141314ddfd7c57d0a1886ac3356a6f4c25958a77d5e6be2c8",
+          "sha256": "027765886c3d654de606dbbd31016b5efa7738624f690a9ac00ead9cbe5288d0",
+          "sha1": "3b6a8d17d706da8a4935be6b1a159aac0d5503d5",
+          "md5": "919756c720fb0330bfe0da547ca8bf12"
         }
       ]
     }
