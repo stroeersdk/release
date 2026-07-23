@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "cmp",
+    "version": "8.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmp-8.3.0.aar",
+          "url": "cmp-8.3.0.aar",
+          "size": 28191,
+          "sha512": "aa8f06cd52ca020617ab8f1c29467a532f10f6eaad80b3aae819ee8d193ac96c3791e76d37406fa2a92aafee03cdf939873452e8aec8ce80fff7b24064c0a86a",
+          "sha256": "ffde68e0c5102081d67b77dced1fccb66db4e3b61807ce0efc5c673aa8cd8776",
+          "sha1": "01e43250160626a0503d1c41861df0b4a046d713",
+          "md5": "c1d19c798c3237e3db1ade2a18488782"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.yieldlove.adIntegration",
+          "module": "yieldlove",
+          "version": {
+            "requires": "8.3.0"
+          }
+        },
+        {
+          "group": "com.sourcepoint.cmplibrary",
+          "module": "cmplibrary",
+          "version": {
+            "requires": "7.15.11"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmp-8.3.0.aar",
+          "url": "cmp-8.3.0.aar",
+          "size": 28191,
+          "sha512": "aa8f06cd52ca020617ab8f1c29467a532f10f6eaad80b3aae819ee8d193ac96c3791e76d37406fa2a92aafee03cdf939873452e8aec8ce80fff7b24064c0a86a",
+          "sha256": "ffde68e0c5102081d67b77dced1fccb66db4e3b61807ce0efc5c673aa8cd8776",
+          "sha1": "01e43250160626a0503d1c41861df0b4a046d713",
+          "md5": "c1d19c798c3237e3db1ade2a18488782"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cmp-8.3.0-sources.jar",
+          "url": "cmp-8.3.0-sources.jar",
+          "size": 5704,
+          "sha512": "c21ba952ed6de14f1238afda5a7055cdabd2938f89b9cf2a3650ba99ee5333ea74500a9f776b344966da5bf5a5d0c008aeec468c1574b19e3e597ca6bbb58a2c",
+          "sha256": "da4220501cd157e60de5178dccb392ce68b1be4158fed4ec8dbae837bc0f874c",
+          "sha1": "4c6f0ec098c8e2311435fd13457e463b7836706a",
+          "md5": "a5f13b899534ade81587ca9475224ba6"
+        }
+      ]
+    }
+  ]
+}

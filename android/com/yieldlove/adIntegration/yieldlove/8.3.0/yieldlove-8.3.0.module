@@ -1,0 +1,229 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yieldlove.adIntegration",
+    "module": "yieldlove",
+    "version": "8.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "25.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yieldlove-8.3.0.aar",
+          "url": "yieldlove-8.3.0.aar",
+          "size": 646304,
+          "sha512": "f3412957c5a97ef2bd6b27ca5b1a8a0b8ce48516db17741c01358cc7d399697e050eaa60ce8d90646bd2b2bdefb7964f8e5e00d154194ecd06e6ace3046b2b4c",
+          "sha256": "1c4bdfedc97ea3a2fbd6aecff526b3e7ee2f885fc0093f1c46906f1f12c3811f",
+          "sha1": "8752a483d6b6ebb89dc15fdcb7b8222015491b73",
+          "md5": "4bfaa5baf3f7e149e9e25eb404aaf0f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk-gam-event-handlers",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.iabtcf",
+          "module": "iabtcf-decoder",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "25.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "yieldlove-8.3.0.aar",
+          "url": "yieldlove-8.3.0.aar",
+          "size": 646304,
+          "sha512": "f3412957c5a97ef2bd6b27ca5b1a8a0b8ce48516db17741c01358cc7d399697e050eaa60ce8d90646bd2b2bdefb7964f8e5e00d154194ecd06e6ace3046b2b4c",
+          "sha256": "1c4bdfedc97ea3a2fbd6aecff526b3e7ee2f885fc0093f1c46906f1f12c3811f",
+          "sha1": "8752a483d6b6ebb89dc15fdcb7b8222015491b73",
+          "md5": "4bfaa5baf3f7e149e9e25eb404aaf0f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "yieldlove-8.3.0-sources.jar",
+          "url": "yieldlove-8.3.0-sources.jar",
+          "size": 158004,
+          "sha512": "85a2fdb6685024901fac8db08ad1fe6f7469d4342eb240e95091f519957c5bc180a4c838151a7cb6a8fee086eb2e2c90ca4454944e19b53915ea457be0db88d0",
+          "sha256": "eea02b15093a6e933b7c7e92df8249e3eadb4e403e0cdb29c9be0547af2ec685",
+          "sha1": "d98e190606d9197bacbcae6b806491f780a81f79",
+          "md5": "1975ce88dc468cf3c136c56da7a46c4e"
+        }
+      ]
+    }
+  ]
+}
