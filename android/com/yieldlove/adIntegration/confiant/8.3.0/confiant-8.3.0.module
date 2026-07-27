@@ -35,11 +35,11 @@
         {
           "name": "confiant-8.3.0.aar",
           "url": "confiant-8.3.0.aar",
-          "size": 6585,
-          "sha512": "3a99f9f55696ef4356b50742e42a220ae289b5179d7fcddf73fc401126fc46d7d9fa4e428d900723dfbd4a255708c17fb359f1fed2fb356a4454bdefb0169059",
-          "sha256": "56a9049c6a9c761d1b9768a673c4d81b19065a8a041a91334ee8e64e2f0a52d0",
-          "sha1": "c80bbb87e2c192991554032f1ed9ef9cbb620fbf",
-          "md5": "1eb007ca2385d8dbd0c6f505146a7553"
+          "size": 6586,
+          "sha512": "25b8ee755283d4b94612f9421052c8890078783dbde76c126c6475799b82819b6f95b07c860bf99806a1073b14f8de61a82feb29663c5faa32bef068376a63e3",
+          "sha256": "d763f353505e40f13285b8ebac1b19b08275b48fb8f169d82a226253150be1fd",
+          "sha1": "7b5750f0aa8491b4f53f2b65f9ad458136863709",
+          "md5": "c131f0f5b73bd6d50dcf395b25350b2f"
         }
       ]
     },
@@ -70,7 +70,7 @@
           "group": "com.confiant.android",
           "module": "sdk",
           "version": {
-            "requires": "6.1.3"
+            "requires": "6.1.4"
           }
         },
         {
@@ -106,11 +106,11 @@
         {
           "name": "confiant-8.3.0.aar",
           "url": "confiant-8.3.0.aar",
-          "size": 6585,
-          "sha512": "3a99f9f55696ef4356b50742e42a220ae289b5179d7fcddf73fc401126fc46d7d9fa4e428d900723dfbd4a255708c17fb359f1fed2fb356a4454bdefb0169059",
-          "sha256": "56a9049c6a9c761d1b9768a673c4d81b19065a8a041a91334ee8e64e2f0a52d0",
-          "sha1": "c80bbb87e2c192991554032f1ed9ef9cbb620fbf",
-          "md5": "1eb007ca2385d8dbd0c6f505146a7553"
+          "size": 6586,
+          "sha512": "25b8ee755283d4b94612f9421052c8890078783dbde76c126c6475799b82819b6f95b07c860bf99806a1073b14f8de61a82feb29663c5faa32bef068376a63e3",
+          "sha256": "d763f353505e40f13285b8ebac1b19b08275b48fb8f169d82a226253150be1fd",
+          "sha1": "7b5750f0aa8491b4f53f2b65f9ad458136863709",
+          "md5": "c131f0f5b73bd6d50dcf395b25350b2f"
         }
       ]
     },
@@ -126,11 +126,11 @@
         {
           "name": "confiant-8.3.0-sources.jar",
           "url": "confiant-8.3.0-sources.jar",
-          "size": 3244,
-          "sha512": "00f6c5ed96b9a79611a510989da58d2f25d698050b6306258d9a659f7ed2b29629ce6cc2996fec797f459231673d831eba77ece7d448463a32eb657eb08ab3e9",
-          "sha256": "73d7e865916a530f5a20cee6fdbdf329431b7cbce3ce69b2813dcf5a0c944a50",
-          "sha1": "76ea45a3e242579675add59c18c6c1b40993d8a9",
-          "md5": "0527af01e8d289b525226630e3d10ad0"
+          "size": 3245,
+          "sha512": "753205a07003c7a3d4981a26ec99511fc69b3002ed47b08906ae55d0083f4c7bdc787e7fc3d6aec88449a18b05c27b4d8ba8d7b741915937d1c44b9a5f998eaf",
+          "sha256": "6711bdedf7aa0c6b6794eaed8dc701c702beda6658f26bc75ba7b090b7b42831",
+          "sha1": "b64cd4f4c467cefaaf070581101bfd9baacbeeed",
+          "md5": "ab9002f7753edbf721560032a33a81a4"
         }
       ]
     }
