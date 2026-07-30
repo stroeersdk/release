@@ -36,10 +36,10 @@
           "name": "confiant-8.3.0.aar",
           "url": "confiant-8.3.0.aar",
           "size": 6586,
-          "sha512": "25b8ee755283d4b94612f9421052c8890078783dbde76c126c6475799b82819b6f95b07c860bf99806a1073b14f8de61a82feb29663c5faa32bef068376a63e3",
-          "sha256": "d763f353505e40f13285b8ebac1b19b08275b48fb8f169d82a226253150be1fd",
-          "sha1": "7b5750f0aa8491b4f53f2b65f9ad458136863709",
-          "md5": "c131f0f5b73bd6d50dcf395b25350b2f"
+          "sha512": "548abb6aa994c8866083ca27c27246e52ca99a22c0341ba9eefa6f68084c76cb6ba21f75e40c44bcbb3ab928cb61d66480be0c1d20e8faeace729f15c47cd0be",
+          "sha256": "522369c7b54d509caf4f19fcf29a04fce5ad8971d321bf166b726ebf84d299e2",
+          "sha1": "baeb093ac86d191f4728fa64df6cc6e77e818689",
+          "md5": "d9b41c0ae5cdc929afd32e6d5c6f7cd2"
         }
       ]
     },
@@ -107,10 +107,10 @@
           "name": "confiant-8.3.0.aar",
           "url": "confiant-8.3.0.aar",
           "size": 6586,
-          "sha512": "25b8ee755283d4b94612f9421052c8890078783dbde76c126c6475799b82819b6f95b07c860bf99806a1073b14f8de61a82feb29663c5faa32bef068376a63e3",
-          "sha256": "d763f353505e40f13285b8ebac1b19b08275b48fb8f169d82a226253150be1fd",
-          "sha1": "7b5750f0aa8491b4f53f2b65f9ad458136863709",
-          "md5": "c131f0f5b73bd6d50dcf395b25350b2f"
+          "sha512": "548abb6aa994c8866083ca27c27246e52ca99a22c0341ba9eefa6f68084c76cb6ba21f75e40c44bcbb3ab928cb61d66480be0c1d20e8faeace729f15c47cd0be",
+          "sha256": "522369c7b54d509caf4f19fcf29a04fce5ad8971d321bf166b726ebf84d299e2",
+          "sha1": "baeb093ac86d191f4728fa64df6cc6e77e818689",
+          "md5": "d9b41c0ae5cdc929afd32e6d5c6f7cd2"
         }
       ]
     },
@@ -127,10 +127,10 @@
           "name": "confiant-8.3.0-sources.jar",
           "url": "confiant-8.3.0-sources.jar",
           "size": 3245,
-          "sha512": "753205a07003c7a3d4981a26ec99511fc69b3002ed47b08906ae55d0083f4c7bdc787e7fc3d6aec88449a18b05c27b4d8ba8d7b741915937d1c44b9a5f998eaf",
-          "sha256": "6711bdedf7aa0c6b6794eaed8dc701c702beda6658f26bc75ba7b090b7b42831",
-          "sha1": "b64cd4f4c467cefaaf070581101bfd9baacbeeed",
-          "md5": "ab9002f7753edbf721560032a33a81a4"
+          "sha512": "08bf1e98d35bdb87b8a90e1805d6d015d2875b13a8803ff62d3c0df35aafbe6f329cfceebbd81ed733871c69282b98f9e6fd4c0f6945f6763b52636ad00ff0af",
+          "sha256": "d5968700bf9333b5efab6419e1595f47890d5cbebce9a99aee2ed30a1b7358eb",
+          "sha1": "625d6424a603a9f78f50238af22d0d171b839713",
+          "md5": "4c8203953f73a8b7aa22a9a5538d3037"
         }
       ]
     }
