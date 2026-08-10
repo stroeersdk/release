@@ -1,0 +1,229 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.stroeer.ads",
+    "module": "core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "25.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.0.0.aar",
+          "url": "core-1.0.0.aar",
+          "size": 660093,
+          "sha512": "baa4351df683493a982b97e339dd5138e1e5de9f0bff364541be6467230c00629e8e40167fbf5f183391f63907a0901a0c1c66e9dc5e745f1aac4cfaec4cc9c8",
+          "sha256": "b358e8abfabb66263e3956a94b50ae17a21c0fb6e56781798d6d6b71aeeec915",
+          "sha1": "05f5664514485502f3da1c533c566a721cf63474",
+          "md5": "3be9224c7c7733d06e5f8f217ba8e1da"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk-gam-event-handlers",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.iabtcf",
+          "module": "iabtcf-decoder",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.prebid",
+          "module": "prebid-mobile-sdk",
+          "version": {
+            "requires": "3.3.3"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "25.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.4.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "org.nanohttpd",
+          "module": "nanohttpd",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference-ktx",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.0.0.aar",
+          "url": "core-1.0.0.aar",
+          "size": 660093,
+          "sha512": "baa4351df683493a982b97e339dd5138e1e5de9f0bff364541be6467230c00629e8e40167fbf5f183391f63907a0901a0c1c66e9dc5e745f1aac4cfaec4cc9c8",
+          "sha256": "b358e8abfabb66263e3956a94b50ae17a21c0fb6e56781798d6d6b71aeeec915",
+          "sha1": "05f5664514485502f3da1c533c566a721cf63474",
+          "md5": "3be9224c7c7733d06e5f8f217ba8e1da"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-1.0.0-sources.jar",
+          "url": "core-1.0.0-sources.jar",
+          "size": 161961,
+          "sha512": "f3c4c7646887af388be0d40bfb67952bf85fe1d5651e8f0dc6ba582846fd5e568909d024b41e42750e7ee9beeecab8ae231dd3ead59a58d2a622e75dceeac43e",
+          "sha256": "2aaf3e5a613a65812a8d2e8d5806d53ecf7fb56ff68d2a0649c23aa8942235c9",
+          "sha1": "d0d66dc0212451b56d6a59a2b5c08db7465a5f84",
+          "md5": "09adad3dee871d4b31cad16169e242d3"
+        }
+      ]
+    }
+  ]
+}

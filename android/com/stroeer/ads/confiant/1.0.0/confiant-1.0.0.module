@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.stroeer.ads",
+    "module": "confiant",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "confiant-1.0.0.aar",
+          "url": "confiant-1.0.0.aar",
+          "size": 6483,
+          "sha512": "602023e7ce4659e6e4dba6f4a33626a4325d1cdbe6a762a2b52bafe51ab2e141c1fb500554e8623a46129b256bfb11cf7eddf079887aba047bfef338d262c9fc",
+          "sha256": "14c9cf821f81d179619e095847b559e26255e5682664a7cb6c43dc85de60e446",
+          "sha1": "e0fb558009a1ead52ed3557a1f47f24db6d43b88",
+          "md5": "213ad04677f2e42694bcfa7b1d263f38"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.stroeer.ads",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.confiant.android",
+          "module": "sdk",
+          "version": {
+            "requires": "6.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "confiant-1.0.0.aar",
+          "url": "confiant-1.0.0.aar",
+          "size": 6483,
+          "sha512": "602023e7ce4659e6e4dba6f4a33626a4325d1cdbe6a762a2b52bafe51ab2e141c1fb500554e8623a46129b256bfb11cf7eddf079887aba047bfef338d262c9fc",
+          "sha256": "14c9cf821f81d179619e095847b559e26255e5682664a7cb6c43dc85de60e446",
+          "sha1": "e0fb558009a1ead52ed3557a1f47f24db6d43b88",
+          "md5": "213ad04677f2e42694bcfa7b1d263f38"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "confiant-1.0.0-sources.jar",
+          "url": "confiant-1.0.0-sources.jar",
+          "size": 2814,
+          "sha512": "e705a31aaf2b70b3873b87067e266caaac00506a375524c7e1b47ae98d6a2b80f32a27c573db37e5cbc3c6bc054b68569ba0605e93f7927283c9912cfa3f2b6d",
+          "sha256": "74f2dcbba63178e2cece7491e62a650f7b997fdee820e410e0cd190af990cf9e",
+          "sha1": "66653fc08bf8cd66f601238296c81794c4cc7316",
+          "md5": "88d6aaa03df82973432531c8b859313e"
+        }
+      ]
+    }
+  ]
+}

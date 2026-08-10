@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.stroeer.ads",
+    "module": "cmp",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmp-1.0.0.aar",
+          "url": "cmp-1.0.0.aar",
+          "size": 28113,
+          "sha512": "f18e2bbe9d0c7e3420ca11c71537163bbd3c966838128c09a568e506755db086cef50d8678c7e720bf40c081819e80dcb7649e3b579d3bb569671f795e1e6ac2",
+          "sha256": "899fb594b07676a84d21ab1acfe67f46a1a3cdb998c9df1a2a16b5ecd72d5344",
+          "sha1": "e3392c9d64b21054b80b113f35e07582b2e4013f",
+          "md5": "0340c16eec4877d8b16329f1252d2745"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.stroeer.ads",
+          "module": "core",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.sourcepoint.cmplibrary",
+          "module": "cmplibrary",
+          "version": {
+            "requires": "7.15.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmp-1.0.0.aar",
+          "url": "cmp-1.0.0.aar",
+          "size": 28113,
+          "sha512": "f18e2bbe9d0c7e3420ca11c71537163bbd3c966838128c09a568e506755db086cef50d8678c7e720bf40c081819e80dcb7649e3b579d3bb569671f795e1e6ac2",
+          "sha256": "899fb594b07676a84d21ab1acfe67f46a1a3cdb998c9df1a2a16b5ecd72d5344",
+          "sha1": "e3392c9d64b21054b80b113f35e07582b2e4013f",
+          "md5": "0340c16eec4877d8b16329f1252d2745"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cmp-1.0.0-sources.jar",
+          "url": "cmp-1.0.0-sources.jar",
+          "size": 5281,
+          "sha512": "7c965aeda1f9e7dd3cfaaaa5363d32f03ff4d3b145318fd46562c95d11782fed456296c184862804ee165fab61b23bb942fc7876c6ac1906efa9e54b4d4b0d0f",
+          "sha256": "8e4e04882c937c16eb203eff7a9a9af9c60b0bd8b8563be412bcb75a892d4bea",
+          "sha1": "42cb59732b51028e70fac95987878648c39b00f1",
+          "md5": "06b59095586be07774d95baf7ff42ca0"
+        }
+      ]
+    }
+  ]
+}
