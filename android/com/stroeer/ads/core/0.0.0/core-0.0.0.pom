@@ -10,6 +10,15 @@
   <artifactId>core</artifactId>
   <version>0.0.0</version>
   <packaging>aar</packaging>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.squareup.okhttp3</groupId>
+        <artifactId>okhttp-sse</artifactId>
+        <version>5.4.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>org.prebid</groupId>
@@ -97,6 +106,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <android.versionCode>188</android.versionCode>
+    <android.versionCode>192</android.versionCode>
   </properties>
 </project>
