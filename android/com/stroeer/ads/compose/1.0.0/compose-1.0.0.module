@@ -27,7 +27,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.1.0"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "compose-1.0.0.aar",
           "url": "compose-1.0.0.aar",
-          "size": 43965,
-          "sha512": "c9d1323be5c5da4e02e8f23b4b1989b0f8a9e1d619c533ffa99cc5e58c68827088147d0f33da5f37a72a19c8367816cc511b014ac3d3b69e0767db6e863403fc",
-          "sha256": "dd3c02ba8015718583b5d6f79f27eafe400615ef604934d3f8edd3216e6ca39b",
-          "sha1": "563791ff063904203c430bc05dae35f1bf596e3f",
-          "md5": "ecf392624d110d56a74b934a058f56f9"
+          "size": 47940,
+          "sha512": "510423f586b0d079d39c8544eaafc86a89a3f98264039ee7c3e2fa2635c62405cec9131e4e785678ae9c790930823989a3659b469fef63029b31627846718304",
+          "sha256": "3d2664bd08f236ea8dfc1211d5e18b5ff57c5fa5683f9b3d75a465953f4bacc4",
+          "sha1": "d8cb58c99d3c914287c57165bcb48f1792d28041",
+          "md5": "af680c9408797542cc8297d62ac9ff05"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-reflect",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.1.0"
           }
         },
         {
@@ -105,7 +105,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.1.0"
           }
         }
       ],
@@ -113,11 +113,11 @@
         {
           "name": "compose-1.0.0.aar",
           "url": "compose-1.0.0.aar",
-          "size": 43965,
-          "sha512": "c9d1323be5c5da4e02e8f23b4b1989b0f8a9e1d619c533ffa99cc5e58c68827088147d0f33da5f37a72a19c8367816cc511b014ac3d3b69e0767db6e863403fc",
-          "sha256": "dd3c02ba8015718583b5d6f79f27eafe400615ef604934d3f8edd3216e6ca39b",
-          "sha1": "563791ff063904203c430bc05dae35f1bf596e3f",
-          "md5": "ecf392624d110d56a74b934a058f56f9"
+          "size": 47940,
+          "sha512": "510423f586b0d079d39c8544eaafc86a89a3f98264039ee7c3e2fa2635c62405cec9131e4e785678ae9c790930823989a3659b469fef63029b31627846718304",
+          "sha256": "3d2664bd08f236ea8dfc1211d5e18b5ff57c5fa5683f9b3d75a465953f4bacc4",
+          "sha1": "d8cb58c99d3c914287c57165bcb48f1792d28041",
+          "md5": "af680c9408797542cc8297d62ac9ff05"
         }
       ]
     },
@@ -133,11 +133,11 @@
         {
           "name": "compose-1.0.0-sources.jar",
           "url": "compose-1.0.0-sources.jar",
-          "size": 9104,
-          "sha512": "72d9092c8b593c4208b6c9ccc92f5b403930f6eba750791ccae06945659078b0ccea52d169aceaf6ce83884effb348a8c67b1dceac95f496b076eb9feba7c15d",
-          "sha256": "15ccca2a68c7ffc9b8348a1a0e93c7ef194c4870a67463577486342b2a77178b",
-          "sha1": "57c7ce6dd1bfafafc6736fc4546bec5259d30510",
-          "md5": "38a799fb134d11342285a0a678c7d028"
+          "size": 10574,
+          "sha512": "1003c407e6fdb4b377ac06040f8d0ba4aa10f55364847d1742b7b07594a82f43480b2b9d042dc7ee06ffb11e6e99a8324aa75e2ee7f6e588d5da6e7df8c24fd2",
+          "sha256": "f69b436ecc847046e8173565ff67f2ed93908ed1e958fbf166781bd944dae166",
+          "sha1": "f7ebca98e2b44b7ac6b031bd1d7560c597b06503",
+          "md5": "ecdd9a85b379cfe8a30a3c893bf8ff37"
         }
       ]
     }

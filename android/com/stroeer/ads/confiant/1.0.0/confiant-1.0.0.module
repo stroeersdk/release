@@ -27,7 +27,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.1.0"
           }
         }
       ],
@@ -35,11 +35,11 @@
         {
           "name": "confiant-1.0.0.aar",
           "url": "confiant-1.0.0.aar",
-          "size": 6483,
-          "sha512": "602023e7ce4659e6e4dba6f4a33626a4325d1cdbe6a762a2b52bafe51ab2e141c1fb500554e8623a46129b256bfb11cf7eddf079887aba047bfef338d262c9fc",
-          "sha256": "14c9cf821f81d179619e095847b559e26255e5682664a7cb6c43dc85de60e446",
-          "sha1": "e0fb558009a1ead52ed3557a1f47f24db6d43b88",
-          "md5": "213ad04677f2e42694bcfa7b1d263f38"
+          "size": 6287,
+          "sha512": "ca7260b645fab4abbdf9925d2713be2084cbc40d5ffcacd914d445e2e4733883a1a870ec5cffdcae24fc640e6c136b05c9cc448498925f2fca1248f01a1136ba",
+          "sha256": "232e5e6cb8432645b6205bfd3206d3e29d6ed9acc46eef2ea6d35bd8cd800f3d",
+          "sha1": "792540af5d0f3fbaa38a23ff60be49e3a76c6b79",
+          "md5": "3de35ebb9843f7bb450fa77a45682f6c"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-reflect",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.1.0"
           }
         },
         {
@@ -98,7 +98,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.0"
+            "requires": "2.1.0"
           }
         }
       ],
@@ -106,11 +106,11 @@
         {
           "name": "confiant-1.0.0.aar",
           "url": "confiant-1.0.0.aar",
-          "size": 6483,
-          "sha512": "602023e7ce4659e6e4dba6f4a33626a4325d1cdbe6a762a2b52bafe51ab2e141c1fb500554e8623a46129b256bfb11cf7eddf079887aba047bfef338d262c9fc",
-          "sha256": "14c9cf821f81d179619e095847b559e26255e5682664a7cb6c43dc85de60e446",
-          "sha1": "e0fb558009a1ead52ed3557a1f47f24db6d43b88",
-          "md5": "213ad04677f2e42694bcfa7b1d263f38"
+          "size": 6287,
+          "sha512": "ca7260b645fab4abbdf9925d2713be2084cbc40d5ffcacd914d445e2e4733883a1a870ec5cffdcae24fc640e6c136b05c9cc448498925f2fca1248f01a1136ba",
+          "sha256": "232e5e6cb8432645b6205bfd3206d3e29d6ed9acc46eef2ea6d35bd8cd800f3d",
+          "sha1": "792540af5d0f3fbaa38a23ff60be49e3a76c6b79",
+          "md5": "3de35ebb9843f7bb450fa77a45682f6c"
         }
       ]
     },
@@ -126,11 +126,11 @@
         {
           "name": "confiant-1.0.0-sources.jar",
           "url": "confiant-1.0.0-sources.jar",
-          "size": 2814,
-          "sha512": "e705a31aaf2b70b3873b87067e266caaac00506a375524c7e1b47ae98d6a2b80f32a27c573db37e5cbc3c6bc054b68569ba0605e93f7927283c9912cfa3f2b6d",
-          "sha256": "74f2dcbba63178e2cece7491e62a650f7b997fdee820e410e0cd190af990cf9e",
-          "sha1": "66653fc08bf8cd66f601238296c81794c4cc7316",
-          "md5": "88d6aaa03df82973432531c8b859313e"
+          "size": 2815,
+          "sha512": "68a567257d51b2b70aef733d20196e6d6d32008907401f0c5e77b46ce2c1bf2e2f472af948ba4a8e6cfd732993bc9ab5148a1efd93a89319634ac419ea253e1c",
+          "sha256": "31b9e07a8bcafc0f58892d3f5b1751dffd126140ea324d6880b580d686018fa1",
+          "sha1": "0d17f19ff017302a2f2d0c971a32337438397251",
+          "md5": "7d344d9deaf50f249598d4c94db9cecd"
         }
       ]
     }

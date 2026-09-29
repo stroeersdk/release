@@ -14,31 +14,19 @@
     <dependency>
       <groupId>org.prebid</groupId>
       <artifactId>prebid-mobile-sdk</artifactId>
-      <version>3.3.3</version>
+      <version>3.3.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
       <artifactId>play-services-ads</artifactId>
-      <version>25.4.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.squareup.okhttp3</groupId>
-      <artifactId>okhttp</artifactId>
-      <version>5.4.0</version>
+      <version>24.6.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
       <version>2.14.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.nanohttpd</groupId>
-      <artifactId>nanohttpd</artifactId>
-      <version>2.3.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -50,7 +38,7 @@
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib</artifactId>
-      <version>2.2.0</version>
+      <version>2.1.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -74,13 +62,7 @@
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-reflect</artifactId>
-      <version>2.2.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.prebid</groupId>
-      <artifactId>prebid-mobile-sdk-gam-event-handlers</artifactId>
-      <version>3.3.3</version>
+      <version>2.1.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -95,8 +77,14 @@
       <version>1.12.0</version>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>org.nanohttpd</groupId>
+      <artifactId>nanohttpd</artifactId>
+      <version>2.3.1</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
   <properties>
-    <android.versionCode>188</android.versionCode>
+    <android.versionCode>220</android.versionCode>
   </properties>
 </project>
